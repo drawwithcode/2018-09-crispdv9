@@ -149,77 +149,77 @@ function draw() {
   stroke(random(255),random(255),random(255))
   fill(255);
   var point = myMap.latLngToPixel(myLoc.latitude,myLoc.longitude)
-  ellipse(point.x,point.y,10)
+  ellipse(point.x,point.y,12)
 
   //ukraine
   strokeWeight(10)
   stroke(183,46,23,120)
   fill(183,46,23);
   var point = myMap.latLngToPixel(ukraineLat,ukraineLon)
-  ellipse(point.x,point.y,5)
+  ellipse(point.x,point.y,7)
 
   //libia
   strokeWeight(10)
   stroke(183,46,23,120)
   fill(183,46,23);
   var point = myMap.latLngToPixel(libiaLat,libiaLon)
-  ellipse(point.x,point.y,7)
+  ellipse(point.x,point.y,9)
 
   //china
   strokeWeight(10)
   stroke(183,46,23,120)
   fill(183,46,23);
   var point = myMap.latLngToPixel(chinaLat,chinaLon)
-  ellipse(point.x,point.y,15)
+  ellipse(point.x,point.y,17)
 
   //afganistan
   strokeWeight(10)
   stroke(183,46,23,120)
   fill(183,46,23);
   var point = myMap.latLngToPixel(afganistanLat,afganistanLon)
-  ellipse(point.x,point.y,11)
+  ellipse(point.x,point.y,13)
 
   //iraq
   strokeWeight(10)
   stroke(183,46,23,120)
   fill(183,46,23);
   var point = myMap.latLngToPixel(iraqLat,iraqLon)
-  ellipse(point.x,point.y,9)
+  ellipse(point.x,point.y,11)
 
   //siria
   strokeWeight(10)
   stroke(183,46,23,120)
   fill(183,46,23);
   var point = myMap.latLngToPixel(siriaLat,siriaLon)
-  ellipse(point.x,point.y,7)
+  ellipse(point.x,point.y,9)
 
   //nigeria
   strokeWeight(10)
   stroke(183,46,23,120)
   fill(183,46,23);
   var point = myMap.latLngToPixel(nigeriaLat,nigeriaLon)
-  ellipse(point.x,point.y,7)
+  ellipse(point.x,point.y,9)
 
   //mexico
   strokeWeight(10)
   stroke(183,46,23,120)
   fill(183,46,23);
   var point = myMap.latLngToPixel(mexicoLat,mexicoLon)
-  ellipse(point.x,point.y,13)
+  ellipse(point.x,point.y,15)
 
   //corea
   strokeWeight(10)
   stroke(183,46,23,120)
   fill(183,46,23);
   var point = myMap.latLngToPixel(coreaLat,coreaLon)
-  ellipse(point.x,point.y,17)
+  ellipse(point.x,point.y,19)
 
   //palestina
   strokeWeight(10)
   stroke(183,46,23,120)
   fill(183,46,23);
   var point = myMap.latLngToPixel(palestinaLat,palestinaLon)
-  ellipse(point.x,point.y,20)
+  ellipse(point.x,point.y,22)
 
   //text
   noStroke()
@@ -242,7 +242,7 @@ function draw() {
   fill(209,206,206)
   textSize(15)
   textAlign(CENTER)
-  text('(As bigger is the circle, longest is the duration of the conflict in that country.)',windowWidth/2,windowHeight/3)
+  text('(As bigger is the circle, longest is the duration of the conflict in that country).',windowWidth/2,windowHeight/3)
 
 
 }
